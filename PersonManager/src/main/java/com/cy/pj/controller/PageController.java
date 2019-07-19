@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/")
 public class PageController {
-	//1328urhuiebfuiehwjkef
+	
 	@RequestMapping("doMainPageUI")
 	public String doMainPageUI() {
 		return "mainPage";
